@@ -22,6 +22,12 @@
   - **Purpose**: Connectionless, low-overhead datagrams  
   - **Usage**: UDP scans for services (DNS, SNMP) without handshake  
 
+- **Modbus TCP**  
+  - **Layer**: 7 (Application over TCP)  
+  - **Port**: 502/TCP  
+  - **Purpose**: Industrial control protocol for SCADA/DER devices  
+  - **Usage**: Scan for hosts with port 502 open (e.g. `nmap -p502 --open`) and/or passively capture Modbus frames with Wireshark/tcpdump to fingerprint devices.  
+
 ## 2. Active Host Discovery
 
 ### Nmap Ping Sweep  
