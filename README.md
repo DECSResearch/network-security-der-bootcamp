@@ -643,7 +643,7 @@ A Python-based FDIA (False Data Injection Attack) tool designed to intercept and
    - (Optional) Use a Virtual Environment: If you hit permission issues or prefer isolation, create and activate a venv before installing:
     
        ```bash
-       python3 -m venv .venv
+       python3 -m virtualenv .venv
        source .venv/bin/activate
        pip3 install scapy netfilterqueue numpy
        ```
