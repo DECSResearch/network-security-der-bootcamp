@@ -5,16 +5,16 @@ Hands-on labs, cheat sheets, and scripts for the DER Edge Security Bootcamp, cov
 
 | Script | Classification | Description | Last Updated | Documentation |
 |--------|---------------|-------------|--------------|---------------|
-| [arp_spoof.py](src/impersonation/arp_spoof.py) | Impersonation | Bidirectional ARP cache poisoning tool | 2025-02-24 | [README](#arp-spoofing) |
-| [brute_charset.py](src/flooding/bruteforce_char.py) | Flooding | Alphabet-based brute force (a-zA-Z0-9!@#) | 2025-02-19 | [README](#alphabet-based-brute-force) |
-| [dict_attack.py](src/flooding/bruteforce_dict.py) | Flooding | Dictionary attack with Top 150k passwords | 2025-02-19 | [README](#ssh-dictionary-attack-tool) |
-| [arp_blackout.py](src/impersonation/arp_blackout.py) | Impersonation | Advanced ARP cache poisoning | 2025-03-07| [README](#arp-blackout-attack-tool)|
-| [FDIA.py](src/Injection/FDIA.py) | Injection | TCP/ModBus protocol data manipulation tool | 2025-03-10 | [README](#false-data-injection-attack) |
-| [arp_eavesdrop.py](src/impersonation/arp_eavesdrop.py) | Impersonation | Passive network traffic sniffer | 2025-03-10 | [README](#arp-eavesdropping-attack) |
-| [replay.py](src/Injection/replay.py) | Impersonation | ModBus frequency replay attack | 2025-03-21 | [README](#modbus-replay-attack) |
-| [dos_icmp.py](src/flooding/dos_icmp.py) | Flooding | ICMP flood with IP spoofing and Rate Limiting| 2025-03-28 |  [README](#icmp-flood-attack) |
-| [dos_tcp.py](src/flooding/dos_tcp.py) | Flooding | TCP flood with IP spoofing and Rate Limiting | 2025-03-28 | [README](#tcp-flood-attack) |
-| [tcp_flag_injection.py](src/Injection/tcp_flag_injection.py) | Injection | TCP flag injection for non‑standard combinations | 2025-04-21 | [README](#tcp-flag-injection) |
+| [arp_spoof.py](red_team_network_scripts/impersonation/arp_spoof.py) | Impersonation | Bidirectional ARP cache poisoning tool | 2025-02-24 | [README](#arp-spoofing) |
+| [brute_charset.py](red_team_network_scripts/flooding/bruteforce_char.py) | Flooding | Alphabet-based brute force (a-zA-Z0-9!@#) | 2025-02-19 | [README](#alphabet-based-brute-force) |
+| [dict_attack.py](red_team_network_scripts/flooding/bruteforce_dict.py) | Flooding | Dictionary attack with Top 150k passwords | 2025-02-19 | [README](#ssh-dictionary-attack-tool) |
+| [arp_blackout.py](red_team_network_scripts/impersonation/arp_blackout.py) | Impersonation | Advanced ARP cache poisoning | 2025-03-07| [README](#arp-blackout-attack-tool)|
+| [FDIA.py](red_team_network_scripts/Injection/FDIA.py) | Injection | TCP/ModBus protocol data manipulation tool | 2025-03-10 | [README](#false-data-injection-attack) |
+| [arp_eavesdrop.py](red_team_network_scripts/impersonation/arp_eavesdrop.py) | Impersonation | Passive network traffic sniffer | 2025-03-10 | [README](#arp-eavesdropping-attack) |
+| [replay.py](red_team_network_scripts/Injection/replay.py) | Impersonation | ModBus frequency replay attack | 2025-03-21 | [README](#modbus-replay-attack) |
+| [dos_icmp.py](red_team_network_scripts/flooding/dos_icmp.py) | Flooding | ICMP flood with IP spoofing and Rate Limiting| 2025-03-28 |  [README](#icmp-flood-attack) |
+| [dos_tcp.py](red_team_network_scripts/flooding/dos_tcp.py) | Flooding | TCP flood with IP spoofing and Rate Limiting | 2025-03-28 | [README](#tcp-flood-attack) |
+| [tcp_flag_injection.py](red_team_network_scripts/Injection/tcp_flag_injection.py) | Injection | TCP flag injection for non‑standard combinations | 2025-04-21 | [README](#tcp-flag-injection) |
 
 
 ## Classification Rationale
